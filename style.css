@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #202337;
+    color: white;
+}
+.topleft{
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    gap: 20px;
+}
+h4{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.topleft h4:hover{
+    text-decoration: underline;
+    text-underline-offset: 13px;
+    text-decoration-thickness: 4px;
+    color: #338eee;
+}
+.signin:hover,
+svg:hover{
+    color: #338eee;
+}
+
+.topright{
+    display: flex;
+
+    align-items: center;
+    gap: 20px;
+}
+svg,
+.topright img{
+    width: 12px;
+    height: 12px;
+
+}
+.signin{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.download{
+    background-color: #338eee;
+    height: 45px;
+    line-height:45px;
+    padding: 0 20px;
+    color: black;
+}
+
+.videofoot video{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    position: relative;
+}
+.video-overlay{
+    position: absolute;
+    top: 100px;
+    color: #fff;
+    left: 50px;
+
+
+}
+h1{
+    font-family: 'Lucida Sans Unicode', 'Lucida Sans Regular', 'Lucida Grande',  Arial, sans-serif;
+    font-weight: 100;
+    font-size: 65px;
+    line-height: 0.5;
+}
+button{
+    background-color: transparent;
+    border-image: radial-gradient(100% 185.14% at 100% 100%, rgb(52, 195, 255) 0%, rgb(51, 142, 238) 100%) 5 / 2px / 0 stretch;
+    padding: 20px 30px;
+    color: #fff;
+}
+button:hover{
+     box-shadow: rgba(1, 219, 248, 0.9) 0px 5px 5px, rgba(1, 219, 248, 0.9) 0px -5px 5px, rgba(1, 219, 248, 0.9) 5px 0px 5px, rgba(1, 219, 248, 0.9) -5px 0px 5px;
+}
+.foot{
+    background-color: #202337;
+    height: 510px;
+    width: 100%;
+    color: #fff;
+    margin-top: -4px;
+}
+.terms{
+    display: flex;
+    justify-content: space-between;
+}
+.termsleft{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 60px;  
+}
+.grid-item:hover,
+.epicright svg:hover,   
+.termsleft h5:hover{
+    color: #338eee;   
+    
+}
+.epicright{
+    
+    display: flex;
+    margin-right: 60px;
+    align-items: center;
+    gap: 20px;    
+}
+.epicright svg{
+    width: 30px;
+    height: 30px;
+}
+.grid-container {
+      
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 10px 10px;
+    padding: 5px;
+  } 
+.footicons{
+
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}  
+.footicons svg{
+    margin-top: 30px;
+    width: 30px;
+    height: 30px;
+}
+h6{
+    margin-left: 60px;
+}
+.grid-container{
+    margin-left: 60px;
+
+}
